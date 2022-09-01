@@ -24,13 +24,14 @@ export default {};
   padding: 50px 0 100px 0;
   a {
     font-size: 35px;
-    color: rgba(0, 0, 0, 0.411) !important;
-    text-shadow: 0px 24px 7px rgba(150, 150, 150, .3);
-    transition: all .5s ease;
-    &:hover{
-       color: rgba(0, 0, 0, 0.811) !important;
-        text-shadow: 0px 24px 7px rgba(150, 150, 150, 1);
-    }
+    color: #d36b00 !important;
+    transition: all 0.5s ease;
+    @media screen and (max-width: 769px) {
+          font-size: 20px !important;
+      }
+       @media screen and (max-width: 600px) {
+          font-size: 14px !important;
+      }
   }
 }
 </style>

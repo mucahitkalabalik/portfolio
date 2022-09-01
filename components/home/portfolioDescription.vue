@@ -27,15 +27,13 @@ export default {};
   align-items: center;
   justify-content: flex-start;
   .portfolio-title {
-    font-size: 24px;
+  font-size: 35px;
     font-weight: 500;
-    color: orange;
-    text-shadow: 0px 24px 7px rgba(150, 150, 150, 1);
+     color: #D36B00;
   }
   .portfolio-desc {
     text-align: start !important;
     margin-top: 20px;
-    color: #01afff;
   }
 }
 </style>

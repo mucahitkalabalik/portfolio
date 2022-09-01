@@ -98,11 +98,10 @@ export default {};
 <style lang="scss">
 #frontend {
   .frontend-title {
-    font-size: 30px;
+    font-size: 35px;
     margin-top: 50px;
     font-weight: 500;
-     color: orange;
-     text-shadow: 0px 24px 7px rgba(150, 150, 150, 1);
+      color: #D36B00;
   }
   .img-container {
     margin-top: 50px !important;

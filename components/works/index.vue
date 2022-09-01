@@ -57,22 +57,24 @@ export default {
     animation: up 1.5s;
   }
    .works-panels{
-    animation: up 2s;
+    animation: down 2s;
   }
-  .pure-title {
-  font-size: 45px !important;
-  font-family: "Rubik Dirt", cursive;
-  text-shadow: 0px 24px 7px rgba(150, 150, 150, 1);
-  margin: auto;
-}
 .item{
   font-size: 28px;
-  color: rgba(0, 0, 0, 0.418);
+  color: #d36b00 !important;
 }
 }
 @keyframes up {
   from {
     transform: translateY(-100vw);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+@keyframes down {
+  from {
+    transform: translateY(100vw);
   }
   to {
     transform: translateY(0px);

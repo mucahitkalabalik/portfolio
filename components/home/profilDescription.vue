@@ -40,10 +40,8 @@ export default {};
   }
   .name {
     display: inline;
-    font-family: "Rubik Dirt", cursive;
     font-size: 46px;
     letter-spacing: 5px;
-    text-shadow: 2px 3px 7px white, 0 10px 1px rgb(226, 226, 226);
       @media screen and (max-width: $medium) {
         text-align: center;
       }
