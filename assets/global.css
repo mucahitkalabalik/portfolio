@@ -1,0 +1,8 @@
+body{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    text-transform: none;
+    color: black !important;
+}
