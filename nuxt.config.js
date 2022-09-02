@@ -36,18 +36,7 @@ export default {
     "@nuxtjs/vuetify",
     "@nuxtjs/google-fonts",
   ],
-  googleFonts: {
-    download: true,
-    families: {
-      RubikDirt: true,
-      "Josefin+Sans": true,
-      Lato: [100, 300],
-      Raleway: {
-        wght: [100, 400],
-        ital: [100],
-      },
-    },
-  },
+  
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
@@ -78,7 +67,7 @@ export default {
   vuetify: {
     customVariables: ["~/assets/variables.scss"],
     theme: {
-      dark: false,
+      dark: true,
       themes: {
         dark: {
           primary: colors.blue.darken2,
