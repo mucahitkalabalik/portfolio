@@ -7,7 +7,7 @@
         <v-expansion-panel-header class="item">
           PURE CSS EXAMPLES
            <template v-slot:actions>
-            <v-icon color="error">
+            <v-icon color="orange">
               $expand
             </v-icon>
           </template>
